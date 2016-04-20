@@ -1,0 +1,54 @@
+.contenedor
+{
+	background: rgba(0, 0, 0, 0.5);
+	font-family: 'Roboto', sans-serif;
+	width: 600px;
+	height: 230px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	text-align: justify;
+	border-radius: 25px;
+	padding: 30px;
+	color: white;
+}
+
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
+
+a
+{
+	background-color: #DB3030;
+	text-decoration: none;
+	border: none;
+	color: white;
+	text-align: center;
+	padding: 14px 25px;
+}
+
+@media screen and (min-width: 768px)
+{
+	.contenedor
+	{
+		width: 600px;
+	}
+}
+
+@media screen and (min-width: 600px)
+{
+	.contenedor
+	{
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 400px)
+{
+	.contenedor
+	{
+		width: 50%;
+	}
+}
