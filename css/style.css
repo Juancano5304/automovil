@@ -1,22 +1,21 @@
+body
+{
+	background: url('https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg') no-repeat fixed center;
+	background-size: cover;
+}
+
 .contenedor
 {
 	background: rgba(0, 0, 0, 0.5);
 	font-family: 'Roboto', sans-serif;
-	width: 600px;
-	height: 230px;
-	position: absolute;
+	max-width: 600px;
+	position: relative;
 	top: 50px;
 	left: 50px;
 	text-align: justify;
 	border-radius: 25px;
 	padding: 30px;
 	color: white;
-}
-
-img 
-{
-    max-width: 100%;
-    height: auto;
 }
 
 a
@@ -29,26 +28,11 @@ a
 	padding: 14px 25px;
 }
 
-@media screen and (min-width: 768px)
+@media (max-width: 600px)
 {
 	.contenedor
 	{
-		width: 600px;
+		margin: 50px;
 	}
 }
 
-@media screen and (min-width: 600px)
-{
-	.contenedor
-	{
-		width: 60%;
-	}
-}
-
-@media screen and (min-width: 400px)
-{
-	.contenedor
-	{
-		width: 50%;
-	}
-}
